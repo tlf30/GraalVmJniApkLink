@@ -7,7 +7,7 @@ Now, set your PATH, JAVA_HOME, and GRAALVM_HOME. Both JAVA_HOME and GRAALVM_HOME
   
 Next, you need to build the bridge.  
 Go into the `bridge/` folder, and run:  
-`./gradlew build nativeBuild`  
+`./gradlew build nativeBuild nativePackage`  
 If everything is setup correctly, it will build and produce some `.so` files which we will round up, and copy into the `OutsideAndroid/outside/arm64-v8a` folder.  
 The first one is located `bridge/build/client/aarch64-android/liboutside-android-bridge.so`  
 The other two are located: `bridge/build/client/aarch64-android/gvm/apk/lib/arm64-v8a` they are `libfreetype.so` and `libsubstrate.so`.  
