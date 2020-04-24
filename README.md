@@ -17,9 +17,9 @@ Finally we can build the android apk for jme.
 In Android Studio, open the `OutsideAndroid` folder as a project, and build the app.  
   
 From here you can deploy it to any android device version 28+, and that support arm64-v8. 
-  
-  
-  
+    
+    
+  #
   Running this will produce a error, caused by the JNI linkage. 
   ```
   04/23 16:29:15: Launching 'app' on BullittGroupLimited S61.
